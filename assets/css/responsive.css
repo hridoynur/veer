@@ -1,0 +1,72 @@
+@media (max-width: 991px) {
+    /* Start */
+  
+    .veer-main-menu{
+        position: absolute;
+        top: 0%;
+        left: -300px;
+        z-index: 5;
+        width: 300px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .veer-main-menu ul{
+        display: block;
+    }
+    .veer-hamburger{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .veer-hamburger i{
+        color: #fff;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .veer-hamburger i.fa-times{
+        display: none;
+    }
+    .veer-about-text > a{
+        margin-bottom: 50px;
+    }
+    .review-item{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    /* End */
+}
+
+@media (max-width: 768px) {
+    /* Start */
+
+    .veer-work > img{
+        margin-bottom: 10px;       
+    }
+    .grid-item{
+        text-align: center;
+    }
+    .team-item-text{
+        margin-bottom: 15px;
+    }
+    .message textarea{
+        width: 40%;
+        margin: 0 auto;
+        display: none;
+    }
+    .footer-text{
+        margin-bottom: 15px;
+    }
+
+    /* End */
+}
+
+@media (max-width: 499px){
+    /* Start */
+
+    .message textarea{
+        display: none;
+    }
+
+    /* End */
+}

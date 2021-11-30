@@ -1,0 +1,536 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
+    Template Name : Veer
+    Created By : Nur Hossen Hridoy
+    Envato Profile : https://themeforest.net
+    Website : https://www.facebook.com/shahriar.hridoy.73
+    Version : 1.0.0
+    Support : 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+            [ CSS Table Contents ]
+ ---------------------------------------------
+
+    1.0 - General CSS
+    2.0 - Typography CSS
+    3.0 - Global Settings CSS
+    4.0 - Header Area
+    5.0 - About Area
+    6.0 - Service Area
+    7.0 - Video Area
+    8.0 - Work Area
+    9.0 - Client Review Area
+    10.0 - Team Area
+    11.0 - Blog Area
+    12.0 - Logo Carousel Area
+    13.0 - Contact Area
+    14.0 - Footer Area
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500&display=swap');
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    1.0 - General CSS
+=-=-=-=-=-=-=-=-=-=-=-=  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    2.0 - Typography CSS
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #252525;
+}
+h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 0 0;
+    color: #252525;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+3.0 - Global Settings CSS
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+a.read{
+    margin-top: 40px;
+    padding: 8px 20px;
+    background-color: #3d9bd7;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+input{
+    display: block;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    4.0 - Header Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.veer-header{
+    background-image: url(../images/veer-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.veer-header-top{
+    background-color: transparent;
+}
+.veer-logo a{
+    padding: 15px 0;
+}
+.veer-main-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.veer-main-menu ul li{
+    font-family: 'Poppins', sans-serif;
+}
+.veer-main-menu ul li a{
+    color: #fff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.veer-hamburger{
+    display: none;
+}
+.veer-header-bottom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.veer-header-text > em{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.veer-header-text h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    5.0 - About Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-about{
+    padding: 95px 0 90px;
+}
+
+.veer-about-text em{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.veer-about-text h2{
+    margin-bottom: 30px;
+}
+
+/* .veer-about-text a.read{
+    margin-top: 40px;
+    padding: 8px 20px;
+    background-color: #3d9bd7;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+} */
+.veer-about-image{
+    position: relative;
+}
+.veer-about-image::before{
+    content: '';
+    display: block;
+    width: 190px;
+    height: 68px;
+    border: 8px solid #bddbef;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+.veer-about-image::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 68px;
+    border: 8px solid #bddbef;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+}
+.veer-about-image img{
+    position: relative;
+    z-index: 2;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    6.0 - Service Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.veer-service{
+    padding: 100px 0;
+}
+.veer-title{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.veer-title h2{
+    margin-bottom: 35px;
+    position: relative;
+}
+.veer-title h2::before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #85cfff;
+    position: absolute;
+    bottom: -35%;
+    right: 42%;
+}
+.veer-title h2::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #009bff;
+    position: absolute;
+    top: 120%;
+    left: 44%;
+}
+.veer-title p{
+    margin-bottom: 35px;
+}
+.veer-service-item{
+    text-align: center;
+}
+.veer-service-item img{
+    margin-bottom: 15px;
+}
+.veer-service-item p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    7.0 - Video Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-video{
+    background-image: url('../images/video-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veer-video i{
+    font-size: 40px;
+    color: #fff;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    8.0 - Work Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-work{
+    padding: 100px 0;
+    background: #fff;
+}
+.veer-work-buttons{
+    text-align: center;
+    margin-bottom: 40px; 
+}
+.veer-work-buttons button{
+    background-color: transparent;
+    color: #252525;
+    border: none;
+    margin: 0 20px;
+    font-size: 14px;
+}
+.veer-work-buttons button.active{
+    color: #4091c3;
+    text-decoration: line-through;
+} 
+.veer-bottom-button{
+    text-align: center;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+ 9.0 - Client Review Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.veer-review{
+    padding: 90px 0;
+    background-color: #fff;
+}
+.review-item{
+    text-align: center;
+    width: 85%;
+}
+.review-item img{
+    width: 75%;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.review-item h5{
+    margin-bottom: 30px;
+}
+.rating-text p{
+    color: #919191;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.rating-icon i{
+    color: #E17A62;
+    margin-top: 0;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    10.0 - Team Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-team{
+    padding: 80px 0;
+    background: #fff;
+}
+.team-item{
+    position: relative;
+}
+.team-item-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 249, 249, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+.team-item-icon ul{
+    display: flex;
+}
+.team-item-icon li{
+    margin: 0 10px;
+}
+.team-item-icon ul li a{
+    font-size: 25px;
+}
+.team-item-icon ul li a i{
+    color: #000000;
+}
+.team-item-icon ul li:hover i{
+    color: #0e7b9e;
+}
+.team-item:hover .team-item-icon{
+    opacity: 1;
+}
+.team-item-text{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=
+    11.0 - Blog Area
+=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-blog{
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.veer-title > h2.blog{
+    color: #0bb256;
+}
+.main-blog{
+    position: relative;
+}
+
+.blog-text a h4{
+    font-size: 20px;
+}
+.hi-pen{
+    color: #e57d5f;
+}
+.veer-blog-bottom-icon{
+    display: flex;
+    justify-content: safe;
+}
+.veer-blog-bottom-icon i{
+    padding: 0 8px;
+    font-size: 20px;
+}
+.veer-blog-bottom-icon i p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.veer-blog-bottom-icon i.fa-heart{
+    color: red;
+}
+
+/*  =-=-==-=-=-=-=-=-=-=-=-=-=-=
+    12.0 - Logo Carousel Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-carousel{
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+/*  =-=-==-=-=-=-=-=-=-=-=-=-=-=
+    13.0 - Contact Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-contact{
+    background-image: url('../images/veer-map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-overlay{
+    background-color: rgba(16, 12, 29, 0.8);
+    border: 1px solid #009bff;
+}
+.veer-contact-content{
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+}
+h3{
+    color: #fff;
+}
+.form-control{
+    background-color: transparent;
+}
+.message textarea{
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+
+form > input{
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #3d9bd7;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+/*  =-=-==-=-=-=-=-=-=-=-=-=-=-=
+    14.0 - Footer Area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.veer-footer{
+    background-color: #fff;
+    padding: 30px;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    display: flex;
+}
+.footer-text h6{
+    padding-left: 25px;
+    color: #949494;
+}
+.footer-text h6:hover{
+    color: #3d9bd7;
+}
+.footer-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-icon i{
+    font-size: 20px;
+    padding: 0 15px;
+    color: #949494;
+}
+.footer-icon i:hover{
+    color: #3d9bd7;
+}
+
+/* For Scrolltop */
+
+.scroll-top{
+    background-color: #e1b12c;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.scroll-top i.fa-hand-point-up{
+    font-size: 25px;
+    color: #000;
+}
+
+/* Messenger */
+
+.messenger{
+    background-color: #e1b12c;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.messenger a i.fa-facebook-messenger{
+    font-size: 25px;
+    color: #000;
+}
